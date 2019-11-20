@@ -1,1 +1,1 @@
-worker: python ATMAPPGUI.py
+web: gunicorn atmappgui.py --log-file -
